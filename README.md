@@ -16,4 +16,4 @@ The arguments -Xms256m and -Xmx1300m set the initial and maximum Java heap sizes
 
 Note: [arguments] can be saved in a flat text file.
 
-More infomation about installation, usage and updates, please visit: http://jjwanglab.org/cepip
+More infomation about installation, usage and updates, please visit: http://147.8.193.36/cepip
