@@ -8,12 +8,5 @@ Majority of trait/disease associated variants identified by genome wide associat
 
 # Installing cepip
 
-Simply decompress the archive and run the following command.
-
-   java -Xms256m  -Xmx1300m -jar ./cepip.jar  [arguments] 
-
-The arguments -Xms256m and -Xmx1300m set the initial and maximum Java heap sizes for cepip as 256 megabytes and 1.3 gigabytes respectively. Specifying a larger maximum heap size can speed up the analysis. A higher setting like -Xmx2g or even-Xmx5g is required when there is a large number of variants, say 5 million. The number, however, should be less than the size of physical memory of a machine.
-
-Note: [arguments] can be saved in a flat text file.
-
-More infomation about installation, usage and updates, please visit: http://mulinlab.org/cepip
+We have integrated our JAVA version cepip into KGGSeq package (http://grass.cgs.hku.hk/limx/kggseq/doc10/UserManual.html#ContexSpcific), now it supports whole genome scoring in an efficient manner (require mannually download dbNCFP wohle genome annotation file). Please refer to the manual for package configuration and running parameters (--regulatory-causing-predict and --cell). 
+Old infomation about installation, usage and updates, please visit: http://mulinlab.org/cepip
